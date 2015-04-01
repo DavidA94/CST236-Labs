@@ -80,4 +80,4 @@ class TestGetTriangleType(TestCase):
 
     def test_get_poly_disconnect_bad_angles_all_int(self):
         result = get_poly_type(80, 100, 90, 90, True)
-        self.assertEqual(result, 'disconnecteddd')
+        self.assertEqual(result, 'disconnected')
