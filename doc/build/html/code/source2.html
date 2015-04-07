@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Source Example &mdash; Lab1 2.00 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.00',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Lab1 2.00 documentation" href="../LAB1.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../LAB1.html">Lab1 2.00 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="source-example">
+<h1>Source Example<a class="headerlink" href="#source-example" title="Permalink to this headline">¶</a></h1>
+<p>Source1 provides functions for describing a triangle.</p>
+<div class="section" id="determining-polygon-type">
+<h2>Determining Polygon Type<a class="headerlink" href="#determining-polygon-type" title="Permalink to this headline">¶</a></h2>
+<p>The function <code class="xref py py-func docutils literal"><span class="pre">source.source1.get_poly_type()</span></code> provides users with a way to provide a set of four sides
+of a polygon and returns the type of polygon (&#8220;square&#8221;, &#8220;rectangle&#8221;, or &#8220;invalid&#8221;) or
+provides users with a way to provide a set of four angles and returns whether the polygon is a &#8220;square&#8221;,
+&#8220;rhombus&#8221;, or &#8220;disconnected&#8221;</p>
+</div>
+<div class="section" id="rectangle-example">
+<h2>Rectangle Example<a class="headerlink" href="#rectangle-example" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">source.source2</span> <span class="kn">import</span> <span class="n">get_poly_type</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">get_poly_type</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="go">&#39;scalene&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="rhombus-example">
+<h2>Rhombus Example<a class="headerlink" href="#rhombus-example" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">source.source2</span> <span class="kn">import</span> <span class="n">get_poly_type</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">get_poly_type</span><span class="p">(</span><span class="mi">135</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">135</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
+<span class="go">&#39;rhombus&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="complex-documentation">
+<h2>Complex Documentation<a class="headerlink" href="#complex-documentation" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python"><div class="highlight"><pre>
+</pre></div>
+</div>
+<div class="highlight-none"><div class="highlight"><pre>
+</pre></div>
+</div>
+</div>
+<div class="section" id="module-source.source2">
+<span id="module-reference"></span><h2>Module Reference<a class="headerlink" href="#module-source.source2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="source-source2-new-source-code">
+<h3><a class="reference internal" href="#module-source.source2" title="source.source2"><code class="xref py py-mod docutils literal"><span class="pre">source.source2</span></code></a> &#8211; New source code<a class="headerlink" href="#source-source2-new-source-code" title="Permalink to this headline">¶</a></h3>
+<p>The following code determines if four given sides create a square, a rectangle,
+or something else.</p>
+<dl class="function">
+<dt id="source.source2.get_poly_type">
+<code class="descclassname">source.source2.</code><code class="descname">get_poly_type</code><span class="sig-paren">(</span><em>a=0</em>, <em>b=0</em>, <em>c=0</em>, <em>d=0</em>, <em>angles=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/source/source2.html#get_poly_type"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#source.source2.get_poly_type" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine if the given polygon is square, rectangle, rhombus, or other</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>a</strong> (<em>float or int or tuple or list or dict</em>) &#8211; line a</li>
+<li><strong>b</strong> (<em>float or int</em>) &#8211; line b</li>
+<li><strong>c</strong> (<em>float or int</em>) &#8211; line c</li>
+<li><strong>d</strong> (<em>float or int</em>) &#8211; line d</li>
+<li><strong>angles</strong> (<em>bool</em>) &#8211; True if given angles</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">&#8220;square&#8221;, &#8220;rectangle&#8221;, &#8220;rhombus&#8221; or &#8220;invalid&#8221;</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">str</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../LAB1.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Source Example</a><ul>
+<li><a class="reference internal" href="#determining-polygon-type">Determining Polygon Type</a></li>
+<li><a class="reference internal" href="#rectangle-example">Rectangle Example</a></li>
+<li><a class="reference internal" href="#rhombus-example">Rhombus Example</a></li>
+<li><a class="reference internal" href="#complex-documentation">Complex Documentation</a></li>
+<li><a class="reference internal" href="#module-source.source2">Module Reference</a><ul>
+<li><a class="reference internal" href="#source-source2-new-source-code"><code class="docutils literal"><span class="pre">source.source2</span></code> &#8211; New source code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/code/source2.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2015, CST236.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.3</a>
+      
+      |
+      <a href="../_sources/code/source2.txt"
+          rel="nofollow">Page source</a></li>
+    </div>
+
+    
+
+    
+  </body>
+</html>

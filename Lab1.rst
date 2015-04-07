@@ -1,6 +1,9 @@
 Welcome to CST 236 Lab 1
 ------------------------
 
+**If you have not already done so. Ensure you have completed the instructions
+on blackboard.**
+
 Getting Python Setup
 ====================
 
@@ -177,18 +180,18 @@ Using nose2 you are able to execute a single test using syntax such as the follo
 
 .. code::
 
-    C:\CST236\Main\CST236>nose2 -s . tests.test_source1.TestGetTriangleType.test_get_triangle_scalene_all_int
+    C:\CST236\Main\CST236>nose2 -s . tests.source1_test.TestGetTriangleType.test_get_triangle_scalene_all_int
 
 Now that you have fixed the broken test lets see what the coverage looks like. Execute the following commands:
 
 .. code::
 
-    nose2 --with-cov --coverage-report html
+    nose2 --with-coverage --coverage-report html
 
 * This will generate an html report for the coverage results in htmlcov/index.html.
 * If you look at this file the coverage is currently including the tests in the results. 
 
-#. Lets automatically run for coverage by adding the following:
+#. Lets automatically run for coverage by adding the following to nose2.cfg (without spaces or tabs before the lines):
 
     .. code::
    
@@ -392,3 +395,4 @@ Each of the following questions must be copied to your lab write-up and made int
 
     Please ensure all your work is committed and pushed to your Lab 1 branch. Now email me the address to your repo and
     drone.io job. Looking on github is a good way to check that I will be able to see all your work.
+

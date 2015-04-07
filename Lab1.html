@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Welcome to CST 236 Lab 1</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="welcome-to-cst-236-lab-1">
+<h1 class="title">Welcome to CST 236 Lab 1</h1>
+
+<p><strong>If you have not already done so. Ensure you have completed the instructions
+on blackboard.</strong></p>
+<div class="section" id="getting-python-setup">
+<h1>Getting Python Setup</h1>
+<ol class="arabic">
+<li><p class="first">If you don't already have python 2.7.8 download and install it now</p>
+</li>
+<li><p class="first">Ensure &quot;C:python27;C:python27scripts;C:python27libsite-packages&quot; is in your env path variable</p>
+</li>
+<li><p class="first">Open a command prompt to the root of the CST236 repo and run &quot;python install get-pip.py&quot;</p>
+</li>
+<li><p class="first">pip (python installation package) manages extra modules not included in standard python</p>
+</li>
+<li><p class="first">Run &quot;pip install -r requirements.txt&quot;.</p>
+<blockquote>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p>Important</p>
+<p class="last">This will install all standard modules used for this class. If your lab assignment or
+project requires additional modules you must create a requirements.txt file in the root
+of your repo and check it in</p>
+</div>
+</blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="converting-rst">
+<h1>Converting RST</h1>
+<p>Isn't this document format ugly? ReStructured text (RST) is a very powerful &quot;what you see is what you get&quot; markup format for creating documents.
+I'm not sure about you but if you run &quot;rst2html.py Lab1.rst Lab1.html&quot; It looks a whole lot better. Granted it would look better with CSS but
+it does accomplish the goal of making it easier to read.</p>
+<p>ReStructured Test is especially useful when working with a GIT repo that works better with plain text files than complex binary (.doc/.chm) files.</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">Each lab for this class will end with a set of write-up questions that must be completed to get full credit for the lab. The write-up must
+be submitted as part of the lab git repo and be in the form of RST capable of being converted using rst2html.</p>
+</div>
+<p>For more information about ReStructured Text see <a class="reference external" href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">RST</a>.</p>
+</div>
+<div class="section" id="creating-your-own-repo">
+<h1>Creating your own Repo</h1>
+<p>If you do not already have a GIT server setup you will now want to
+go to github and register for an account and follow github's instructions
+for creating a GIT repo.</p>
+<p>The URL generated from this process is what you will want to clone locally
+and email to me at the end of the lab.</p>
+<p>Each lab should be committed as a branch to allow each referencing other
+labs throughout this course. The master branch should be used to contain
+a project template (one is provided under origin/lab1_template on the CST236
+repo). As the class progresses it's highly recommended that you rebase
+changes onto master that you feel would be useful in future labs.</p>
+</div>
+<div class="section" id="your-first-commit">
+<h1>Your first Commit</h1>
+<p>No matter the repo no matter what the first commit to the repo should always
+be to the .gitignore file. The reasoning for this is to ensure binary files
+or other files are not checked in and essentially ruin the repo.</p>
+<p>Often when working with GIT you will hear a lot of complaints about
+binary files in a GIT repo. For the most binary files are only acceptable
+if they are only going to be added and never or rarely modified. The issue
+in GIT with binary files is that git does not store files it stores deltas.
+This means on clones GIT downloads the complete list of changes (every commit
+on every branch that has ever been made to a repo).</p>
+<p>At first this seems less like a feature and more like a bug of GIT. But
+statistically on text files like source code this is actually a much more
+efficient way of storing files since statically most changes won't be total
+re-writes of the files. Additionally this provides the user with the ability
+to review the entire list of changes after a clone without needing to interact
+with a server. In theory this would mean I can clone each of your repos for a
+given lab board a plane with no wifi and grade each of your assignments by
+the time I land.</p>
+<p>The downfall to this model is binary files such as exes and bitmaps. Every time
+an exe is complied a high percentage of the exe is changed. This means with each
+commit containing a binary change the other collaborates have much more data to
+fetch.</p>
+<p>Now lets get ignoring the binary files out of the way.</p>
+<ol class="arabic simple">
+<li>Clone your repo locally</li>
+<li>Open a git bash to the root of your repo</li>
+<li>Execute &quot;touch .gitignore&quot;</li>
+<li>Add &quot;<em>.exe&quot; and &quot;</em>.pyc&quot; to the .gitignore file</li>
+<li>Add the file to the repo by executing &quot;git add .gitignore&quot;</li>
+<li>Run &quot;git commit -a -m &quot;Added .gitignore file&quot;</li>
+<li>Run &quot;git push&quot;</li>
+</ol>
+<p>You have now made your first commit and pushed to the server with a message of &quot;Added .gitignore file&quot;</p>
+<p>The following set of sections highlight the important git commands. there are many other commands available
+and each command has many different parameters. It's highly recommended you spend time with each to
+better understand GIT.</p>
+</div>
+<div class="section" id="switching-to-a-new-branch">
+<h1>Switching to a new branch</h1>
+<p>A git branch can be created using &quot;git checkout -b [name_of_your_new_branch]&quot;</p>
+<p>To push a new branch use &quot;git push origin [name_of_your_new_branch]&quot;</p>
+<p>Use &quot;git branch&quot; to view a listing of all branches. The branch indicated with &quot;*&quot; is your current branch.</p>
+<p>Switch to the &quot;Lab1_example&quot; branch on the CST236 repo</p>
+<p>The now checked out files contain the testing template that will be used for the remaining labs.
+Copy these changes and check them into the master branch on your lab repo. Next create  branch called &quot;lab1&quot;
+push it to the server. This is where the remaining changes for this lab should be pushed(Unless you find
+something that might be useful to have available on all labs)</p>
+</div>
+<div class="section" id="rebasing-a-branch">
+<h1>Rebasing a Branch</h1>
+<p>Rebasing a branch is useful when you have changes on a branch that you want on the master branch.</p>
+<p>This can be accomplished using the &quot;git rebase&quot; command</p>
+<p>Cherry picking allows grabbing a single commit from a branch and adding it to the current branch.</p>
+<p>This can be accomplished using the &quot;git cherry-pick&quot; command</p>
+</div>
+<div class="section" id="viewing-the-log">
+<h1>Viewing the Log</h1>
+<p>Using the &quot;git log&quot; command you are able to see many details and commit history for the
+current branch. There are many parameters to git log. Review these parameters and try
+out a few to better understand git log</p>
+</div>
+<div class="section" id="diffing-two-revisions">
+<h1>Diffing two revisions</h1>
+<p>Using the &quot;git diff&quot; command you can diff two commits or even the file itself that was changed
+Review the parameters and try out a few to better understand git diff.</p>
+</div>
+<div class="section" id="squashing-two-commits">
+<h1>Squashing two commits</h1>
+<p>One of the nice features of GIT is you can make many commits locally without pushing and they will provide you
+with restore points as you develop your feature locally. When it's time to push to an integration branch or
+master you will likely want to squash those changes to have all your changes in a single commit. The advantage
+of this is you won't flood your fellow engineer's git log.</p>
+<p>Research the different ways to squash git commits</p>
+</div>
+<div class="section" id="reverting-changes-to-the-last-commit">
+<h1>Reverting Changes to the last Commit</h1>
+<p>Using the &quot;git revert&quot; you can undo changes or cleanup unneed files.</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p>important</p>
+<p class="last">Careful once something is reverted it is gone forever</p>
+</div>
+<p>Review the parameters and try out a few to better understand git revert</p>
+</div>
+<div class="section" id="creating-your-first-test">
+<h1>Creating your first test</h1>
+<p>To ensure proper setup I have included a second test case that you may use as a guide
+for the remaining tests.</p>
+<p>To execute open a command prompt and execute the following:</p>
+<pre class="code literal-block">
+nose2
+</pre>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">Oh no it looks like Gaben broke the tests. Your job is now to fix the broken tests.</p>
+</div>
+<p>Using nose2 you are able to execute a single test using syntax such as the following:</p>
+<pre class="code literal-block">
+C:\CST236\Main\CST236&gt;nose2 -s . tests.source1_test.TestGetTriangleType.test_get_triangle_scalene_all_int
+</pre>
+<p>Now that you have fixed the broken test lets see what the coverage looks like. Execute the following commands:</p>
+<pre class="code literal-block">
+nose2 --with-coverage --coverage-report html
+</pre>
+<ul class="simple">
+<li>This will generate an html report for the coverage results in htmlcov/index.html.</li>
+<li>If you look at this file the coverage is currently including the tests in the results.</li>
+</ul>
+<ol class="arabic">
+<li><p class="first">Lets automatically run for coverage by adding the following to nose2.cfg (without spaces or tabs before the lines):</p>
+<blockquote>
+<pre class="code literal-block">
+[coverage]
+coverage = .
+always-on = True
+coverage-report = html
+</pre>
+</blockquote>
+</li>
+<li><p class="first">Change directory being used to gather coverage by modifying &quot;coverage&quot; attribute above to point to the source folder</p>
+</li>
+<li><p class="first">Now rerun nose2 and look at the results. You will notice coverage was automatically run and there is numerous red(uncovered) blocks of code</p>
+</li>
+<li><p class="first">Create additional test cases and functions to get 100% coverage on the provided source code.</p>
+</li>
+<li><p class="first">Now create a new function in a new source file that will take four values to determine if the object is a square or rectangle</p>
+</li>
+<li><p class="first">Create additional tests to completely cover the new function</p>
+</li>
+<li><p class="first">Create .gitignore exceptions for the coverage output folder and .coverage file (binary output from coverage run)</p>
+</li>
+</ol>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">Bonus 15 points for anyone who modifies the function just created to also accept angles and determine if the object
+is a rhombus or disconnected object.</p>
+</div>
+</div>
+<div class="section" id="creating-a-git-hook">
+<h1>Creating a GIT hook</h1>
+<p>GIT hooks are useful in ensuring that some project requirement or server requirement is met before or after some
+operation of the user. Some example of git hooks can be found below</p>
+<div class="section" id="sample-git-hook">
+<h2>Sample GIT hook</h2>
+<p>Prior to trying this we need to make sure that git.exe and sh.exe are in the path. If using a windows command
+prompt you are unable to execute git.exe or sh.exe you will need to add the 'git/bin' folder to your path
+variable. For Example: 'C:Program Files (x86)Gitbin' on windows 7</p>
+<p>Next navigate from the root of your repo to .git/hooks and create a file named &quot;pre-commit&quot; (no file extension)</p>
+<p>Now place this code inside of the &quot;pre-commit&quot; file</p>
+<pre class="code literal-block">
+#!/usr/bin/env python
+import collections
+import subprocess
+import sys
+
+ExecutionResult = collections.namedtuple(
+    'ExecutionResult',
+    'status, stdout, stderr'
+)
+
+
+def _execute(cmd):
+    process = subprocess.Popen(
+        cmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE
+    )
+    stdout, stderr = process.communicate()
+    status = process.poll()
+    return ExecutionResult(status, stdout, stderr)
+
+changes = _execute(['git', 'diff', '--staged'])
+if 'print ' in changes.stdout:
+    print &quot;print detected in changes. Use Logging instead&quot;
+    sys.exit(1)
+else:
+    sys.exit(0)
+</pre>
+<p>Now if you try to commit a file that contains a print it will not allow you to commit (prints in python while ok for
+debugging should not be used. Instead using logging as it allows setting log levels and is thread safe)</p>
+</div>
+<div class="section" id="create-your-own-git-hook">
+<h2>Create your own GIT hook</h2>
+<p>Next update the git hook that will execute your python unit tests in order to commit. This is a good way to ensure
+every commit contains working unittests.</p>
+</div>
+</div>
+<div class="section" id="documenting-using-sphinx">
+<h1>Documenting using Sphinx</h1>
+<p>Sphinx documentation utilizes inline documentation (function comments see get_triangle_type for example) and
+ReStructured Text to create end user documentation. This allows the code changes to automatically be updated in
+the resulting code.</p>
+<p>I've included a template for documenting the source1.py file in the doc folder. This can be built using the following</p>
+<pre class="code literal-block">
+cd doc
+make html
+</pre>
+<p>This will create an index.html in build/html. View this file to get an idea of what this looks like.</p>
+<p>** Now build a rst doc for the source file for four sided objects that was created earlier **</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">Don't forget to add your new rst file to the index to make it accessible</p>
+</div>
+</div>
+<div class="section" id="creating-doctests">
+<h1>Creating DocTests</h1>
+<p>Sphinx doctests are useful in that they allow you to embedded checks in code or RST files that checks that changes
+to the code are updated in the associated documentation. Imagine the case where you have some defined API but then
+you change some of the parameters. If the associated documentation is not updated you'll have a very unhappy customer.</p>
+<p>This is where doctests come into play. Doctests provide a check and doctests also get printed to the html output.
+There are two ways to include doc tests</p>
+<div class="section" id="simple-doctests">
+<h2>Simple doctests</h2>
+<p>The simplest method of including a doctest is using the &quot;&gt;&gt;&gt;&quot; operator. For example:</p>
+<pre class="code literal-block">
+&gt;&gt;&gt; x = 1
+&gt;&gt;&gt; y = 2
+&gt;&gt;&gt; print x + y
+3
+</pre>
+<p>In the above example the code will be displayed exactly how it is included in the comment or RST.</p>
+</div>
+<div class="section" id="complex-doctests">
+<h2>Complex doctests</h2>
+<p>Complex doc tests split up tests into 3 - 4 different groups.
+* Test setups: provide a set of code to execute before the test specified (does not show up in html)
+* Test code: The actual test that gets executed (shows up in HTML)
+* Test output: The expected output from executing the test code (shows up in HTML)
+* Test cleanup: Steps to take after a test to cleanup after the test (does not show up in html)</p>
+<p>Example:</p>
+<pre class="code literal-block">
+.. testsetup:: *
+
+    x = 1
+    y = 2
+
+.. testcode:: addition
+
+    print x + y
+
+.. testoutput:: addition
+
+    3
+</pre>
+<p>In the above example by indicating '*' for the test setup we are indicating that this setup should be performed for
+every testcode block in the file. If we changes that to 'addition' the test setup will only be performed
+prior to for the addition testcode.</p>
+</div>
+<div class="section" id="executing-doctests">
+<h2>Executing doctests</h2>
+<p>By using the same make as building the html doc above we can execute doctests by running:</p>
+<pre class="code literal-block">
+make doctest
+</pre>
+<p>** Now create doctests for using both simple and complex doctests. **</p>
+</div>
+</div>
+<div class="section" id="continuous-integration">
+<h1>Continuous Integration</h1>
+<p>Since testing that has only been executed on a single computer can fail to reveal flaws in both the source code
+and the tests. Tests and results which are not consistent and reproducible are useful. Plus how will we be able to
+detect the next time that Gaben breaks the build again?</p>
+<ol class="arabic simple">
+<li>Go to <a class="reference external" href="http://drone.io">Drone.IO</a></li>
+<li>Register Drone IO with your github account.</li>
+<li>Connect Drone to build your nose2 and doctests.</li>
+<li>Setup drone to build the nose2 and doctests the same way you built them locally.</li>
+</ol>
+<ul class="simple">
+<li>You will want to make sure this will build each branch. This means drone will build each of your builds</li>
+<li>This is a good way to make sure that your tests will work on my computer</li>
+<li>This also ensures that your requirements.txt is correct</li>
+</ul>
+</div>
+<div class="section" id="lab-write-up">
+<h1>Lab Write-up</h1>
+<dl class="docutils">
+<dt>Each of the following questions must be copied to your lab write-up and made into section headers. Any code responses</dt>
+<dd>must utilize rst code block format. Likewise bullet and number lists must follow the same syntax.</dd>
+</dl>
+<ol class="arabic simple">
+<li>What was the hardest part of this lab?</li>
+<li>During the course of this lab, why did we exclude .pyc files?</li>
+<li>Name three files which would likely need to have a gitignore added?</li>
+<li>What is a pyunit TestCase?</li>
+<li>What is the difference between a git cherry pick and a rebase?</li>
+<li>How could you use git to print out just the author name of a given file for the current version of the repo?</li>
+<li>During this lab did you explore Tortoise Git or GIT Extensions? If not take a look at them, they probably would be useful for the remainder of the class</li>
+</ol>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please ensure all your work is committed and pushed to your Lab 1 branch. Now email me the address to your repo and
+drone.io job. Looking on github is a good way to check that I will be able to see all your work.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
