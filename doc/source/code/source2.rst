@@ -28,15 +28,18 @@ Complex Documentation
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. testsetup:: *
+    
     a = 1
     b = 2
     c = 1
     d = 2
     
 .. testcode:: rectangle
+    
     get_poly_type(1, 2, 1, 2)
     
 .. testoutput:: rectangle
+    
     rectangle
 
 Module Reference
