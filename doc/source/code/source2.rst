@@ -15,7 +15,7 @@ Rectangle Example
 
 >>> from source.source2 import get_poly_type
 >>> get_poly_type(1, 2, 1, 2)
-'scalene'
+'rectangle'
 
 Rhombus Example
 ^^^^^^^^^^^^^^^
@@ -29,14 +29,20 @@ Complex Documentation
 
 .. testsetup:: *
     
+    from source.source2 import get_poly_type
     a = 1
     b = 2
     c = 1
     d = 2
+
+.. doctest::
+
+    >>> get_poly_type(a, b, c, d)
+    'rectangle'
     
 .. testcode:: rectangle
     
-    get_poly_type(1, 2, 1, 2)
+    print get_poly_type(a, b, c, d)
     
 .. testoutput:: rectangle
     
