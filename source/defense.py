@@ -1,7 +1,7 @@
 from orc import Orc
 
 class Shield(object):
-    def __init__(self, perimeter):
+    def __init__(self, perimeter=100):
         self.orcs = []
         self._perimeter = perimeter
         
