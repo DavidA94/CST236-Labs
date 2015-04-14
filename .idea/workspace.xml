@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6da54d-b598-48e5-8b29-cda205faf6de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CST236-Labs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\LAB1.rst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\source\dg.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/defense.py" afterPath="$PROJECT_DIR$/source/defense.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/game.py" afterPath="$PROJECT_DIR$/source/game.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/orc.py" afterPath="$PROJECT_DIR$/source/orc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round1_p1_tests.py" afterPath="$PROJECT_DIR$/tests/round1_p1_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round1_p2_tests.py" afterPath="$PROJECT_DIR$/tests/round1_p2_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round1_p3_tests.py" afterPath="$PROJECT_DIR$/tests/round1_p3_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round1_p45_tests.py" afterPath="$PROJECT_DIR$/tests/round1_p45_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round2_p1_tests.py" afterPath="$PROJECT_DIR$/tests/round2_p1_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round2_p2_tests.py" afterPath="$PROJECT_DIR$/tests/round2_p2_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round2_p3_tests.py" afterPath="$PROJECT_DIR$/tests/round2_p3_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round2_p4_tests.py" afterPath="$PROJECT_DIR$/tests/round2_p4_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round2_p5_tests.py" afterPath="$PROJECT_DIR$/tests/round2_p5_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round3_p1_tests.py" afterPath="$PROJECT_DIR$/tests/round3_p1_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round3_p2_tests.py" afterPath="$PROJECT_DIR$/tests/round3_p2_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/round3_p3_tests.py" afterPath="$PROJECT_DIR$/tests/round3_p3_tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/source/LAB2.rst" afterPath="$PROJECT_DIR$/doc/source/LAB2.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/source/conf.py" afterPath="$PROJECT_DIR$/doc/source/conf.py" />
     </list>
     <ignored path="CST236-Labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,17 +30,17 @@
       <file leaf-file-name="defense.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/defense.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="850">
+            <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="850">
               <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orc.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="orc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/orc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="493">
+            <state vertical-scroll-proportion="0.7017544" vertical-offset="77" max-vertical-offset="493">
               <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
               <folding />
             </state>
@@ -72,33 +50,12 @@
       <file leaf-file-name="game.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1293" max-vertical-offset="1785">
-              <caret line="85" column="16" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="910" max-vertical-offset="1326">
+              <caret line="17" column="70" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="70" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
+                <element signature="e#1099#2238#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="round1_p2_tests.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/round1_p2_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35675675" vertical-offset="2520" max-vertical-offset="2890">
-              <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
-              <folding>
-                <element signature="e#32#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="round1_p3_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/round1_p3_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="527">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -165,20 +122,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CST236-Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CST236-Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CST236-Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,10 +335,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/round3_p1_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17042607" vertical-offset="0" max-vertical-offset="399">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/round1_p2_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.551724" vertical-offset="2520" max-vertical-offset="2890">
+          <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
+          <folding>
+            <element signature="e#32#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/round1_p3_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/round1_p45_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/round2_p4_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/round1_p1_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2556391" vertical-offset="102" max-vertical-offset="901">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/round2_p1_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/round2_p2_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5764411" vertical-offset="230" max-vertical-offset="629">
+        <state vertical-scroll-proportion="-0.19298245" vertical-offset="77" max-vertical-offset="629">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/round2_p5_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -408,63 +417,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/round1_p1_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.85213035" vertical-offset="340" max-vertical-offset="901">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/round1_p3_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/round3_p1_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17042607" vertical-offset="0" max-vertical-offset="399">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/defense.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="850">
+        <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="850">
           <caret line="20" column="86" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/orc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="493">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1293" max-vertical-offset="1785">
-          <caret line="85" column="16" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="910" max-vertical-offset="1326">
+          <caret line="17" column="70" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="70" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
+            <element signature="e#1099#2238#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/round1_p2_tests.py">
+    <entry file="file://$PROJECT_DIR$/source/orc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35675675" vertical-offset="2520" max-vertical-offset="2890">
-          <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
-          <folding>
-            <element signature="e#32#61#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7017544" vertical-offset="77" max-vertical-offset="493">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,9 +1,8 @@
-.. Lab1 documentation master file, created by
-   sphinx-quickstart on Sat Mar 28 20:37:26 2015.
+.. Lab2 documentation master file.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Lab1's documentation!
+Welcome to Lab2's documentation!
 ================================
 
 Contents:
@@ -12,7 +11,6 @@ Contents:
    :maxdepth: 2
 
    code/defense.rst
-   code/dg.rst
    code/game.rst
    code/orc.rst
 
