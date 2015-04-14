@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6da54d-b598-48e5-8b29-cda205faf6de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/source/LAB2.rst" afterPath="$PROJECT_DIR$/doc/source/LAB2.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/source/conf.py" afterPath="$PROJECT_DIR$/doc/source/conf.py" />
-    </list>
+    <list default="true" id="4a6da54d-b598-48e5-8b29-cda205faf6de" name="Default" comment="" />
     <ignored path="CST236-Labs.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
