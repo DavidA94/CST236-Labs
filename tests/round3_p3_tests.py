@@ -1,5 +1,5 @@
 """
-Test for source.source2
+Test for Round 3 Part 3
 """
 from unittest import TestCase
 from source.game import Game

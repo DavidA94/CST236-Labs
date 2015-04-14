@@ -11,7 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   code/source1.rst
+   code/defense.rst
+   code/dg.rst
+   code/game.rst
+   code/orc.rst
 
 
 Indices and tables
