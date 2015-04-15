@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6da54d-b598-48e5-8b29-cda205faf6de" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\source\defense.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\source\game.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\source\orc.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round1_p1_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round1_p2_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round1_p3_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round1_p45_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round2_p1_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round2_p2_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round2_p3_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round2_p4_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round2_p5_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round3_p1_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round3_p2_tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\round3_p3_tests.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\LAB2.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\code\defense.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\code\game.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\code\orc.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\perimeter.feature" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\steps\perimeter.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CST236-Labs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +32,58 @@
     <favorites_list name="CST236-Labs" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="r1p1_read_file.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/features/r1p1_read_file.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="r1p2_estimate_speed.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/features/r1p2_estimate_speed.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="r1p3_cng_hdd_size.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/features/r1p3_cng_hdd_size.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="r1p4_hdd_or_network_faster.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/features/r1p4_hdd_or_network_faster.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="r1p5_cmp_hdd_network_time.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/features/r1p5_cmp_hdd_network_time.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13980263" vertical-offset="0" max-vertical-offset="608">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +97,13 @@
         <option value="$PROJECT_DIR$/tests/round3_p1_tests.py" />
         <option value="$PROJECT_DIR$/source/game.py" />
         <option value="$PROJECT_DIR$/tests/round1_p2_tests.py" />
+        <option value="$PROJECT_DIR$/tests/features/perimeter.feature" />
+        <option value="$PROJECT_DIR$/tests/features/read_file.feature" />
+        <option value="$PROJECT_DIR$/tests/features/r1p1_read_file.feature" />
+        <option value="$PROJECT_DIR$/tests/features/r1p2_estimate_speed.feature" />
+        <option value="$PROJECT_DIR$/tests/features/r1p3_cng_hdd_size.feature" />
+        <option value="$PROJECT_DIR$/tests/features/r1p4_hdd_or_network_faster.feature" />
+        <option value="$PROJECT_DIR$/tests/features/r1p5_cmp_hdd_network_time.feature" />
       </list>
     </option>
   </component>
@@ -114,6 +165,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CST236-Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CST236-Labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,10 +349,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -328,6 +397,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21303259" vertical-offset="0" max-vertical-offset="399">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/features/r1p1_read_file.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/features/r1p2_estimate_speed.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/features/r1p3_cng_hdd_size.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/features/r1p4_hdd_or_network_faster.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/features/r1p5_cmp_hdd_network_time.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13980263" vertical-offset="0" max-vertical-offset="608">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
           <folding />
         </state>
       </provider>
