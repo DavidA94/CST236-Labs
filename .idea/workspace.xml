@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6da54d-b598-48e5-8b29-cda205faf6de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/Cities.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/City.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/steps/r1p4_hdd_or_network_faster.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\CST236-Labs.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\nose2.cfg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\tests.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p1_read_file.feature" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p2_estimate_speed.feature" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p3_cng_hdd_size.feature" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p4_hdd_or_network_faster.feature" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p5_cmp_hdd_network_time.feature" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\source1_test - BDD.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\steps\r1p1_read_file.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\plugins\coverage.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/Car.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/r2p1_preset_car_values.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/steps/r2p1_preset_car_values.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/r2p2_custom_cty.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/r2p3_add_city_to_file.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/steps/r2p3_add_city_to_file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/Cities.py" afterPath="$PROJECT_DIR$/source/Cities.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/City.py" afterPath="$PROJECT_DIR$/source/City.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CST236-Labs.iws" />
@@ -56,21 +36,31 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="City.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/source/City.py">
+          <file leaf-file-name="Car.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/source/Car.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8386076" vertical-offset="398" max-vertical-offset="782">
-                  <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+                  <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cities.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="City.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/source/City.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="833">
+                  <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Cities.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/Cities.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="935">
-                  <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.7848101" vertical-offset="432" max-vertical-offset="1139">
+                  <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#14#0" expanded="true" />
                   </folding>
@@ -81,18 +71,8 @@
           <file leaf-file-name="r1p1_read_file.feature" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/r1p1_read_file.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="527">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
                   <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="r1p2_estimate_speed.feature" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/features/r1p2_estimate_speed.feature">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-                  <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -122,7 +102,37 @@
             <entry file="file://$PROJECT_DIR$/features/r1p5_cmp_hdd_network_time.feature">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-                  <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+                  <caret line="5" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r2p1_preset_car_values.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/r2p1_preset_car_values.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+                  <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r2p2_custom_cty.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/r2p2_custom_cty.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r2p3_add_city_to_file.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/r2p3_add_city_to_file.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+                  <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -132,11 +142,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="r1p1_read_file.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="r1p1_read_file.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/steps/r1p1_read_file.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.67096776" vertical-offset="1016" max-vertical-offset="1989">
-                  <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1989">
+                  <caret line="28" column="47" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="47" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
                   </folding>
@@ -147,8 +157,8 @@
           <file leaf-file-name="r1p2_estimate_speed.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/steps/r1p2_estimate_speed.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-                  <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
+                  <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
                   </folding>
@@ -183,10 +193,34 @@
           <file leaf-file-name="r1p5_cmp_hdd_net_time.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="391">
-                  <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#20#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r2p1_preset_car_values.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/steps/r2p1_preset_car_values.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="833">
+                  <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#0#20#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r2p3_add_city_to_file.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/features/steps/r2p3_add_city_to_file.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.7258065" vertical-offset="353" max-vertical-offset="697">
+                  <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -225,13 +259,19 @@
         <option value="$PROJECT_DIR$/features/steps/r1p3_increase_hdd.py" />
         <option value="$PROJECT_DIR$/features/steps/r1p2_estimate_speed.py" />
         <option value="$PROJECT_DIR$/features/r1p1_read_file.feature" />
-        <option value="$PROJECT_DIR$/source/Cities.py" />
         <option value="$PROJECT_DIR$/features/r1p4_hdd_or_network_faster.feature" />
         <option value="$PROJECT_DIR$/features/steps/r1p4_hdd_or_network_faster.py" />
-        <option value="$PROJECT_DIR$/source/City.py" />
         <option value="$PROJECT_DIR$/features/r1p5_cmp_hdd_network_time.feature" />
         <option value="$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py" />
         <option value="$PROJECT_DIR$/features/steps/r1p1_read_file.py" />
+        <option value="$PROJECT_DIR$/features/r2p2_custom_cty.feature" />
+        <option value="$PROJECT_DIR$/source/City.py" />
+        <option value="$PROJECT_DIR$/features/r2p1_preset_car_values.feature" />
+        <option value="$PROJECT_DIR$/features/r2p3_add_city_to_file.feature" />
+        <option value="$PROJECT_DIR$/source/Car.py" />
+        <option value="$PROJECT_DIR$/features/steps/r2p1_preset_car_values.py" />
+        <option value="$PROJECT_DIR$/features/steps/r2p3_add_city_to_file.py" />
+        <option value="$PROJECT_DIR$/source/Cities.py" />
       </list>
     </option>
   </component>
@@ -544,48 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/r1p1_read_file.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="527">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Cities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="935">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/r1p3_cng_hdd_size.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/r1p4_hdd_or_network_faster.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/r1p5_cmp_hdd_network_time.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/steps/r1p3_increase_hdd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -609,17 +607,7 @@
     <entry file="file://$PROJECT_DIR$/features/steps/r1p2_estimate_speed.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="391">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -628,18 +616,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/City.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8386076" vertical-offset="398" max-vertical-offset="782">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="833">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/steps/r1p1_read_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67096776" vertical-offset="1016" max-vertical-offset="1989">
-          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1989">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="47" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/r1p1_read_file.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="527">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/r1p3_cng_hdd_size.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/r1p4_hdd_or_network_faster.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/r1p5_cmp_hdd_network_time.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="5" column="58" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/r2p2_custom_cty.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="316">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/r2p3_add_city_to_file.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/r2p1_preset_car_values.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Car.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/r2p1_preset_car_values.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="833">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/r2p3_add_city_to_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7258065" vertical-offset="353" max-vertical-offset="697">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Cities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7848101" vertical-offset="432" max-vertical-offset="1139">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

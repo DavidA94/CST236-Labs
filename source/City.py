@@ -38,3 +38,7 @@ class City(object):
         # There should be fancy math here, but meh
 
         return 10
+
+    def write(self):
+        return (self.name + ", " + str(self.location).replace(" ", "") +
+                ", " + str(self.connection_speed))
