@@ -3,4 +3,4 @@ Scenario: When researching speeds
 
 Given a speed and HDD size
       When inputting a city
-      Then output if the HDD or netowrk is faster
+      Then output if the HDD or network is faster

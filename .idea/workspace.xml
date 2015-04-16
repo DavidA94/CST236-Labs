@@ -2,13 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6da54d-b598-48e5-8b29-cda205faf6de" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\LAB2.rst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\code\defense.rst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\code\game.rst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\doc\source\code\orc.rst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\perimeter.feature" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\steps\perimeter.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/Cities.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/City.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/steps/r1p4_hdd_or_network_faster.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\CST236-Labs.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\nose2.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\tests.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p1_read_file.feature" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p2_estimate_speed.feature" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p3_cng_hdd_size.feature" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p4_hdd_or_network_faster.feature" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\r1p5_cmp_hdd_network_time.feature" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\source1_test - BDD.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\features\steps\r1p1_read_file.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\David\Documents\School\~OIT\CST 236 - Software Systems Testing\CST236-Labs\tests\plugins\coverage.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CST236-Labs.iws" />
@@ -32,58 +53,148 @@
     <favorites_list name="CST236-Labs" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="r1p1_read_file.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/features/r1p1_read_file.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="r1p2_estimate_speed.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/features/r1p2_estimate_speed.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="r1p3_cng_hdd_size.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/features/r1p3_cng_hdd_size.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="r1p4_hdd_or_network_faster.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/features/r1p4_hdd_or_network_faster.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="r1p5_cmp_hdd_network_time.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/features/r1p5_cmp_hdd_network_time.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13980263" vertical-offset="0" max-vertical-offset="608">
-              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="City.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/source/City.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.8386076" vertical-offset="398" max-vertical-offset="782">
+                  <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Cities.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/source/Cities.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="935">
+                  <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#14#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p1_read_file.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/r1p1_read_file.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="527">
+                  <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p2_estimate_speed.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/r1p2_estimate_speed.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+                  <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p3_cng_hdd_size.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/r1p3_cng_hdd_size.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+                  <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p4_hdd_or_network_faster.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/r1p4_hdd_or_network_faster.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+                  <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p5_cmp_hdd_network_time.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/r1p5_cmp_hdd_network_time.feature">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+                  <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="r1p1_read_file.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/features/steps/r1p1_read_file.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.67096776" vertical-offset="1016" max-vertical-offset="1989">
+                  <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#20#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p2_estimate_speed.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/steps/r1p2_estimate_speed.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+                  <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#0#20#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p3_increase_hdd.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/steps/r1p3_increase_hdd.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+                  <caret line="1" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#0#20#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p4_hdd_or_network_faster.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/steps/r1p4_hdd_or_network_faster.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="425">
+                  <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#0#20#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="r1p5_cmp_hdd_net_time.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="391">
+                  <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+                  <folding>
+                    <element signature="e#0#20#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,11 +210,28 @@
         <option value="$PROJECT_DIR$/tests/round1_p2_tests.py" />
         <option value="$PROJECT_DIR$/tests/features/perimeter.feature" />
         <option value="$PROJECT_DIR$/tests/features/read_file.feature" />
-        <option value="$PROJECT_DIR$/tests/features/r1p1_read_file.feature" />
-        <option value="$PROJECT_DIR$/tests/features/r1p2_estimate_speed.feature" />
-        <option value="$PROJECT_DIR$/tests/features/r1p3_cng_hdd_size.feature" />
         <option value="$PROJECT_DIR$/tests/features/r1p4_hdd_or_network_faster.feature" />
         <option value="$PROJECT_DIR$/tests/features/r1p5_cmp_hdd_network_time.feature" />
+        <option value="$PROJECT_DIR$/source/city_connect.py" />
+        <option value="$PROJECT_DIR$/source/CityConnect.py" />
+        <option value="$PROJECT_DIR$/tests/features/steps/r1p1_read_file.py" />
+        <option value="$PROJECT_DIR$/tests/features/r1p2_estimate_speed.feature" />
+        <option value="$PROJECT_DIR$/tests/features/r1p3_cng_hdd_size.feature" />
+        <option value="$PROJECT_DIR$/tests/features/steps/r1p3_increase_hdd.py" />
+        <option value="$PROJECT_DIR$/tests/features/steps/r1p2_estimate_speed.py" />
+        <option value="$PROJECT_DIR$/tests/features/r1p1_read_file.feature" />
+        <option value="$PROJECT_DIR$/features/r1p2_estimate_speed.feature" />
+        <option value="$PROJECT_DIR$/features/r1p3_cng_hdd_size.feature" />
+        <option value="$PROJECT_DIR$/features/steps/r1p3_increase_hdd.py" />
+        <option value="$PROJECT_DIR$/features/steps/r1p2_estimate_speed.py" />
+        <option value="$PROJECT_DIR$/features/r1p1_read_file.feature" />
+        <option value="$PROJECT_DIR$/source/Cities.py" />
+        <option value="$PROJECT_DIR$/features/r1p4_hdd_or_network_faster.feature" />
+        <option value="$PROJECT_DIR$/features/steps/r1p4_hdd_or_network_faster.py" />
+        <option value="$PROJECT_DIR$/source/City.py" />
+        <option value="$PROJECT_DIR$/features/r1p5_cmp_hdd_network_time.feature" />
+        <option value="$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py" />
+        <option value="$PROJECT_DIR$/features/steps/r1p1_read_file.py" />
       </list>
     </option>
   </component>
@@ -164,7 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -175,10 +303,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CST236-Labs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -196,7 +320,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,6 +336,14 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -352,24 +488,24 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21815519" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -400,43 +536,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/r1p1_read_file.feature">
+    <entry file="file://$PROJECT_DIR$/features/r1p2_estimate_speed.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/r1p2_estimate_speed.feature">
+    <entry file="file://$PROJECT_DIR$/features/r1p1_read_file.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="527">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/r1p3_cng_hdd_size.feature">
+    <entry file="file://$PROJECT_DIR$/source/Cities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="935">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/r1p3_cng_hdd_size.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/r1p4_hdd_or_network_faster.feature">
+    <entry file="file://$PROJECT_DIR$/features/r1p4_hdd_or_network_faster.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/features/r1p5_cmp_hdd_network_time.feature">
+    <entry file="file://$PROJECT_DIR$/features/r1p5_cmp_hdd_network_time.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13980263" vertical-offset="0" max-vertical-offset="608">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/r1p3_increase_hdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="1" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/r1p4_hdd_or_network_faster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="425">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/r1p2_estimate_speed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/r1p5_cmp_hdd_net_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="391">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/City.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8386076" vertical-offset="398" max-vertical-offset="782">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/r1p1_read_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67096776" vertical-offset="1016" max-vertical-offset="1989">
+          <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
