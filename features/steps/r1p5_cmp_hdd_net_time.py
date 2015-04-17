@@ -1,10 +1,10 @@
 from behave import *
 from source.City import City
+from source.hdd import HDD
 
 @given("a speed and hard drive size")
 def impl_step(context):
-    context.speed = 7200
-    context.hdd_size = 500
+    context.hdd = HDD(500, 1)
 
 @when("a city is inputted")
 def impl_step(context):
@@ -12,6 +12,6 @@ def impl_step(context):
 
 @then("show difference in time between network and HDD")
 def impl_step(context):
-    response = context.city.time_diff(context.speed, context.hdd_size)
+    response = context.city.time_diff(context.hdd)
     assert response == 10
 

@@ -1,5 +1,11 @@
 ﻿class Car(object):
     def __init__(self, speed=None, make=None):
+        """
+        :param speed: The speed the car can go
+        :param make: The make of the car
+
+        Creates a new Car object
+        """
         if speed is None and make is not None:
             self.make = make
 

@@ -1,10 +1,10 @@
 from behave import *
 from source.City import City
+from source.hdd import HDD
 
 @given("a speed and HDD size")
 def impl_step(context):
-    context.speed = 7200
-    context.hdd_size = 500
+    context.hdd = HDD(500, 1)
 
 @when("inputting a city")
 def impl_step(context):
@@ -13,8 +13,8 @@ def impl_step(context):
 
 @then("output if the HDD or network is faster")
 def impl_step(context):
-    response1 = context.fast_hdd.check_hdd(context.hdd_size, context.speed)
-    response2 = context.fast_net.check_hdd(context.hdd_size, context.speed)
+    response1 = context.fast_hdd.check_hdd(context.hdd)
+    response2 = context.fast_net.check_hdd(context.hdd)
 
     assert response1 == "The HDD is faster"
     assert response2 == "The net is faster"

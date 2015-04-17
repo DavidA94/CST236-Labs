@@ -12,4 +12,4 @@ def step_impl(context):
 @then("increase HDD size")
 def step_impl(context):
     context.cities.add_hdd_space(100)
-    assert context.cities.hdd_space == 200
+    assert context.cities.hdd.size == 200
