@@ -2,6 +2,8 @@
 
 REM Command file for Sphinx documentation
 
+docFeature.py
+
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )

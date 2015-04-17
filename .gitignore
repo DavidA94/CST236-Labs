@@ -3,4 +3,4 @@
 *.coverage
 htmlcov/
 doc/build/
-.idea
+.idea/*
