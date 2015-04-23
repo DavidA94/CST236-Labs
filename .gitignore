@@ -3,3 +3,4 @@
 *.html
 /.idea
 ReqTracingOutput.csv
+!BugTracker/index.html
