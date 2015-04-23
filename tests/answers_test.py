@@ -57,7 +57,7 @@ class TestAcceptableAnswers(TestCase):
 
         miles = comp.ask("What is 17.9 feet in miles" + self.Q_MARK)
 
-        self.assertAlmostEqual(miles, str(float(17.9) / 5280), places=5)
+        self.assertEqual(miles, str(float(17.9) / 5280) + "miles")
 
     @requirements(['#0008', '#0018'])
     def test_valid_question_time_since(self):
@@ -184,6 +184,6 @@ class TestAcceptableAnswers(TestCase):
         a90 = comp.ask(q_90_if_no_num)
         al90 = comp.ask(q_l90)
 
-        self.assertEqual(a100, str(float(5280) / 5280))
-        self.assertEqual(a90, str(float(5280) / 5280))
+        self.assertEqual(a100, str(float(5280) / 5280) + "miles")
+        self.assertEqual(a90, str(float(5280) / 5280) + "miles")
         self.assertEqual(al90, "I don't know, please provide the answer")

@@ -1,4 +1,4 @@
-Welcome to CST 236 Lab 2
+Welcome to CST 236 Lab 3
 ------------------------
 
 Requirements for a Dream
