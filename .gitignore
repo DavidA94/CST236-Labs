@@ -1,3 +1,5 @@
 *.pyc
+*.exe
 *.html
 /.idea
+ReqTracingOutput.csv
