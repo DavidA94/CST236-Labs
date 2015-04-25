@@ -169,21 +169,32 @@ class TestAcceptableAnswers(TestCase):
     def test_no_space_fail(self):
         comp = Interface()
 
-        response = comp.ask("WhoinventedPython")
+        response = comp.ask("Why don'tyouunderstandme" + self.Q_MARK)
         self.assertEqual(response, "Was that a question?")
+
+    @requirements(['#0005', '#0007'])
+    def test_number_extraction(self):
+        comp = Interface()
+
+        response = comp.ask("What is 50feet in miles" + self.Q_MARK)
+
+        self.assertEqual(response, str(float(50) / 5280) + "miles")
 
     @requirements(['#0006', '#0007'])
     def test_number_extration_and_90(self):
         comp = Interface()
 
+        qm100_if_no_num = "Um What is 5280 feet in miles" + self.Q_MARK
         q100_if_no_num = "What is 5280 feet in miles" + self.Q_MARK
         q_90_if_no_num = "What is 5280 ft in miles" + self.Q_MARK
         q_l90 = "What is 5280 in miles" + self.Q_MARK
 
+        am100 = comp.ask(qm100_if_no_num)
         a100 = comp.ask(q100_if_no_num)
         a90 = comp.ask(q_90_if_no_num)
         al90 = comp.ask(q_l90)
 
+        self.assertEqual(am100, str(float(5280) / 5280) + "miles")
         self.assertEqual(a100, str(float(5280) / 5280) + "miles")
         self.assertEqual(a90, str(float(5280) / 5280) + "miles")
         self.assertEqual(al90, "I don't know, please provide the answer")
