@@ -2,5 +2,7 @@
 *.exe
 *.html
 /.idea
+/htmlcov
 ReqTracingOutput.csv
+.coverage
 !BugTracker/index.html
