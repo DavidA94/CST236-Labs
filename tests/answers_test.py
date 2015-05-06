@@ -6,6 +6,7 @@ import subprocess
 import mock
 import socket
 import random
+import time
 
 
 def mutate_data(func, *args, **kwargs):
@@ -78,7 +79,7 @@ class TestAcceptableAnswers(TestCase):
         inventor = mutate_data(comp.ask, "Who invented python?")
         self.assertEqual(inventor, "Guido Rossum(BDFL)")
         inventor = mutate_data(comp.ask, "Who invented python?")
-        self.assertNoneEqual(inventor, "Guido Rossum(BDFL)")
+        self.assertNotEqual(inventor, "Guido Rossum(BDFL)")
 
     @requirements(['#0008', '#0020'])
     def test_valid_question_understand(self):
@@ -278,7 +279,7 @@ class TestAcceptableAnswers(TestCase):
             response = comp.ask("Who else is here?")
             self.assertEqual(response, ["Lary", "Amy", "Mark", "Edmund"])
             instance.send.assert_called_with("Who?")
-            instance.connect.assert_called_with(('192.168.64.3', '1337'))
+            instance.connect.assert_called_with(('192.168.64.3', 1337))
 
 
     @requirements(['#0024', '#0025', '#0026'])
@@ -311,6 +312,11 @@ class TestAcceptableAnswers(TestCase):
     def test_fib_num(self):
         comp = Interface()
 
+        # Ask
+        comp.ask("What is the 2 digit of the Fibonacci sequence?")
+        # Sleep so it can calculate
+        time.sleep(.5)
+        # Should have had enough time to calculate now.
         response = comp.ask("What is the 2 digit of the Fibonacci sequence?")
         self.assertEqual(response, 1)
 
@@ -318,11 +324,12 @@ class TestAcceptableAnswers(TestCase):
     def test_fib_num_fail(self):
         comp = Interface()
 
-        m = mock.Mock(return_value=0)
+        m = mock.Mock()
 
         temp = random.randint
         random.randint = m
 
+        m.return_value = 0
         response0 = comp.ask("What is the 999999 digit of the Fibonacci sequence?")
         m.return_value = 1
         response1 = comp.ask("What is the 999999 digit of the Fibonacci sequence?")
