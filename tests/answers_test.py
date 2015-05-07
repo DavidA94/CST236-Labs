@@ -1,6 +1,8 @@
 from unittest import TestCase
 from ReqTracer import requirements
 from pyTona.main import Interface
+import pyTona.answer_funcs
+#from predef_dict import predef_dict
 import getpass
 import subprocess
 import mock
@@ -345,3 +347,70 @@ class TestAcceptableAnswers(TestCase):
         self.assertEqual(response3, "One second")
         self.assertEqual(response4, "Thinking...")
         self.assertEqual(response9, "Thinking...")
+
+        pyTona.answer_funcs.seq_finder.stop()
+        pyTona.answer_funcs.seq_finder = None
+
+
+
+    @requirements(['#0030'])
+    def test_1m_q_a(self): # To only be run manually... for now
+        return
+        comp = Interface()
+
+        #comp.question_answers = predef_dict
+
+        for i in range(10):
+            rand = random.randint(0, 999999)
+            response = comp.ask("What is {0}?".format(rand))
+            self.assertEqual(response, "It is {0}".format(rand))
+
+        self.assertEqual((len(comp.question_answers), 1000000))
+
+    @requirements(['#0031'])
+    def test_5ms_store_time(self):
+        comp = Interface()
+
+        comp.ask("How are you?")
+
+        time1 = time.clock()
+        comp.teach("I'm doing well today.")
+        time2 = time.clock()
+
+        self.assertLessEqual(time2 - time1, 5)
+
+        time1 = time.clock()
+        comp.correct("I'm feeling well today.")
+        time2 = time.clock()
+
+        self.assertLessEqual(time2 - time1, 5)
+
+    @requirements(['#0032'])
+    def test_5ms_answer_time(self):
+        comp = Interface()
+
+        time1 = time.clock()
+        response = comp.ask("What is 6000 feet in miles?")
+        time2 = time.clock()
+
+        self.assertLessEqual(time2 - time1, 5)
+        self.assertEqual(response, "{0} miles".format(float(6000) / 5280))
+
+    @requirements(['#0033', '#0034'])
+    def test_only_1000_fib(self):
+        comp = Interface()
+
+        time1 = time.clock()
+        while(comp.ask("What is the 1000 digit of the fibonacci sequence?") in
+              ("Thinking...", "One second", "cool your jets")):
+            pass
+
+        time2 = time.clock()
+
+        self.assertLessEqual(time2 - time1, 60 * 1000)
+
+        self.assertEqual(comp.ask("What is the 1000 digit of the fibonacci sequence?"),
+                         43466557686937456435688527675040625802564660517371780402481729089536555417949051890403879840079255169295922593080322634775209689623239873322471161642996440906533187938298969649928516003704476137795166849228875L)
+
+        self.assertIn(comp.ask("What is the 1001 digit of the fibonacci sequence?"),
+                      ("Thinking...", "One second", "cool your jets"))
