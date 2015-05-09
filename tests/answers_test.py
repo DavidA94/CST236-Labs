@@ -2,6 +2,7 @@ from unittest import TestCase
 from ReqTracer import requirements
 from pyTona.main import Interface
 import pyTona.answer_funcs
+import pyTona.student_funcs
 import getpass
 import subprocess
 import mock
@@ -9,6 +10,9 @@ import socket
 import random
 import time
 import os
+import matplotlib.pyplot as pl
+import numpy
+import math
 
 class TestAcceptableAnswers(TestCase):
 
@@ -475,6 +479,9 @@ class TestAcceptableAnswers(TestCase):
         while comp.ask("How big are you?") is "Let me get that for you.":
             pass
 
+        # I don't know why I need this, but it's randomly failing, so it's here
+        time.sleep(.5)
+
         res = comp.ask("How big are you?")
         self.assertEqual(res, total_size)
 
@@ -495,5 +502,254 @@ class TestAcceptableAnswers(TestCase):
         while comp.ask("How tall are you?") is "I'm measuring":
             pass
 
+        # I don't know why I need this, but it's randomly failing, so it's here
+        time.sleep(.5)
+
         res = comp.ask("How tall are you?")
         self.assertEqual(res, str(max_h) + " feet")
+
+    # Performance Graphs
+    def test_response_time_v_number_of_questions(self):
+        comp = Interface()
+
+        nTests = str(len(comp.question_answers))
+        testNames = [nTests + " Q's Text Response",
+                     nTests + " Q's Feet Response",
+                     nTests + " Q's Not Found",
+                     "100 Q's Text Response",
+                     "100 Q's Feet Response",
+                     "100 Q's Not Found"]
+
+        times = []
+
+        time1 = time.clock()
+        comp.ask("Who invented Python?")
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        time1 = time.clock()
+        comp.ask("What is 57983 feet in miles?")
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        time1 = time.clock()
+        comp.ask("What is up?")
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        for i in range(100 - int(nTests)):
+            comp.last_question = "What is n{0}n".format(i)
+            comp.correct("It is {0}".format(i))
+
+        time1 = time.clock()
+        comp.ask("Who invented Python?")
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        time1 = time.clock()
+        comp.ask("What is 57983 feet in miles?")
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        time1 = time.clock()
+        comp.ask("What is up?")
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        fig = pl.figure()
+        ax = fig.add_subplot(111)
+
+        N = 6
+        xlocs = numpy.arange(N)
+        width = .5 # Width of the bars
+
+        ax.bar(xlocs, times, width, color='skyblue')
+
+        ax.set_xlim(-width, len(xlocs) + width)
+        ax.set_ylim(0, max(times) + 1)
+        ax.set_ylabel('Time in Milliseconds')
+        ax.set_title('Number of Questions vs. Response Time')
+        ax.set_xticks(xlocs - (width / 2))
+        xtickNames = ax.set_xticklabels(testNames)
+        pl.setp(xtickNames, rotation=45, fontsize=10)
+        pl.tight_layout()
+
+        pl.savefig("Plots/Number of Questions vs. Response Time.png")
+        pl.close()
+
+    def test_time_for_fac(self):
+        pyTona.student_funcs.factorials = None
+
+        comp = Interface()
+        times = []
+
+        delta = time.clock()
+        for i in range(0):
+            while(comp.ask("Who invented Python?") is not "Guido Rossum(BDFL)"):
+                pass
+        delta = time.clock() - delta
+
+        time1 = time.clock()
+        for i in range(51):
+            while(comp.ask("What is the factorial of {0}?".format(i)) is "Multiplying"):
+                pass
+            times.append(time.clock() - time1 - (i * delta))
+
+        times = [x * 100 for x in times]
+
+        pl.plot([x for x in range(51)], times, marker='o')
+        pl.title("Time to Calculate (x!)")
+        pl.ylabel("Calculation Time in Centiseconds")
+        pl.xlabel("Factorial")
+        pl.tight_layout()
+
+        pl.savefig("Plots/Time to calculate x!.png")
+        pl.close()
+
+        pyTona.student_funcs.factorials.stop()
+
+    def test_time_to_write_time_to_read_500000(self):
+        comp = Interface()
+
+        temp = random.randint
+        random.randint = mock.Mock(return_value=500000)
+
+        letter_set = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz !.,;:\"'?"
+        time1 = time.clock()
+        for i in range(500000):
+            random.choice(letter_set)
+        delta = (time.clock() - time1)
+
+        times = []
+
+        time1 = time.clock()
+        comp.ask("How about a story?")
+        time2 = time.clock()
+
+        times.append((time2 - time1 - delta) * 1000)
+
+        with open("Storytime!.txt") as f:
+            time1 = time.clock()
+            x = f.read()
+            time2 = time.clock()
+            times.append((time2 - time1) * 1000)
+
+        random.randint = temp
+
+        fig = pl.figure()
+        ax = fig.add_subplot(111)
+
+        N = 2
+        xlocs = numpy.arange(N)
+        width = .5 # Width of the bars
+
+        ax.bar(xlocs, times, width, color='skyblue')
+
+        ax.set_xlim(-width, len(xlocs) + width)
+        ax.set_ylim(0, max(times) + 10)
+        ax.set_ylabel('Time in Milliseconds')
+        ax.set_title('Number of Questions vs. Response Time')
+        ax.set_xticks(xlocs + (width / 2))
+        ax.set_xticklabels(["Write Time", "Read time"])
+        pl.tight_layout()
+
+        pl.annotate(str(times[1]) + " ms", xy=(1.25, times[1] + 20),
+                    xytext=(1.3, times[1] + 110),
+                    arrowprops=dict(facecolor='black', shrink=0, width=2),
+        )
+
+        pl.savefig("Plots/Time to Write, Time to Read.png")
+        pl.close()
+
+    def test_time_for_fib(self):
+        pyTona.answer_funcs.seq_finder = None
+
+        comp = Interface()
+        times = []
+
+        delta = time.clock()
+        for i in range(0):
+            while(comp.ask("Who invented Python?") is not "Guido Rossum(BDFL)"):
+                pass
+        delta = time.clock() - delta
+
+        time1 = time.clock()
+        for i in range(51):
+            while(comp.ask("What is the {0} digit of the Fibonacci sequence?".format(i))
+                  in ("Thinking...", "One second", "cool your jets")):
+                pass
+            times.append(time.clock() - time1 - (i * delta))
+
+        # Make centiseconds
+        times = [x * 100 for x in times]
+
+        pl.plot([x for x in range(51)], times, marker='o')
+        pl.title("Time to Calculate Fibonacci(x)")
+        pl.ylabel("Calculation Time in Centiseconds")
+        pl.xlabel("Fibonacci Number")
+        pl.tight_layout()
+
+        pl.savefig("Plots/Time to calculate Fibonacci(x).png")
+        pl.close()
+
+        pyTona.answer_funcs.seq_finder.stop()
+
+    def test_store_time_v_number_of_questions(self):
+        comp = Interface()
+
+        nTests = str(len(comp.question_answers))
+        testNames = [nTests + " Q's Text Store",
+                     nTests + " Q's Func Store",
+                     "100 Q's Text Store",
+                     "100 Q's Func Store"]
+
+        times = []
+
+        time1 = time.clock()
+        comp.ask("Who invented C++?")
+        comp.teach("Bjarne Stroustrup")
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        time1 = time.clock()
+        comp.ask("What is the abs of -10?")
+        comp.teach(abs)
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        for i in range(100 - int(nTests)):
+            comp.last_question = "What is n{0}n".format(i)
+            comp.correct("It is {0}".format(i))
+
+        time1 = time.clock()
+        comp.ask("Who invented Lisp?")
+        comp.teach("John McCarthy")
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        time1 = time.clock()
+        comp.ask("What is the square root of 25?")
+        comp.teach(math.sqrt)
+        time2 = time.clock()
+        times.append((time2 - time1) * 1000)
+
+        fig = pl.figure()
+        ax = fig.add_subplot(111)
+
+        N = 4
+        xlocs = numpy.arange(N)
+        width = .5 # Width of the bars
+
+        ax.bar(xlocs, times, width, color='skyblue')
+
+        ax.set_xlim(-width, len(xlocs) + width)
+        ax.set_ylim(0, max(times) + 1)
+        ax.set_ylabel('Time in Milliseconds')
+        ax.set_title('Number of Questions vs. Store Time')
+        ax.set_xticks(xlocs)
+        xtickNames = ax.set_xticklabels(testNames)
+        pl.setp(xtickNames, rotation=45, fontsize=10)
+        pl.tight_layout()
+
+        pl.savefig("Plots/Number of Questions vs. Store Time.png")
+        pl.close()
