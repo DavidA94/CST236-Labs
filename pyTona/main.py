@@ -1,4 +1,5 @@
 from pyTona.question_answer import QA
+from pyTona.student_funcs import *
 from pyTona.answer_funcs import feet_to_miles, hal_20, get_git_branch, get_git_url, get_other_users, get_fibonacci_seq
 
 import difflib
@@ -27,7 +28,11 @@ class Interface(object):
             'Where am I': QA('Where am I', get_git_branch),
             'Where are you': QA('Where are you', get_git_url),
             'Who else is here': QA('Who else is here', get_other_users),
-            'What is the digit of the Fibonacci sequence': QA('What is the digit of the Fibonacci sequence', get_fibonacci_seq)
+            'What is the digit of the Fibonacci sequence': QA('What is the digit of the Fibonacci sequence', get_fibonacci_seq),
+            'What is the factorial of': QA('What is the factorial of', gen_fact),
+            'How about a story': QA('How about a story', gen_story),
+            'How big are you': QA('How big are you', get_size),
+            'How tall are you': QA('How tall are you', get_height),
         }
         self.last_question = None
 

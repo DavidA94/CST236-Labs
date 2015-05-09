@@ -79,3 +79,19 @@ Username shall be determined by the name of the currently logged in user.
 #0033 The system shall stop generating Fibonacci sequence numbers once it has identified the first 1,000 numbers
 
 #0034 The system shall generate the first 1,000 Fibonacci sequence numbers in under 60 seconds
+
+** Student Requirements **
+
+#0035 The system shall respond to the question, "What is the factorial of <int>?" with the correct factorial up to the 1000th factorial. If a larger number is asked for, it shall return "Too High"
+
+#0035.5 If the system has not determined the requested factorial, it shall return "Multiplying"
+
+#0036 The system shall respond to the question, "How about a story?" by outputting [250,000, 500,000] random characters from the set [A-Za-z !.,;:"'?] to a file named StoryTime!.txt and output "You can read it at StoryTime!.txt"
+
+#0037 The system shall respond to the question, "How big are you?" by calculating the size of the current folder. 
+
+#0038 If the size has not been determined yet, it shall return, "Let me get that for you."
+
+#0039 The system shall respond to the question, "How tall are you?" by calculating the maximum folder depth from the current directory and returning "<int> feet."
+
+#0040 If the folder depth has not been calculated yet, it shall return "I'm measuring"
