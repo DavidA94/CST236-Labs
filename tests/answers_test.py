@@ -13,6 +13,23 @@ import os
 import matplotlib.pyplot as pl
 import numpy
 import math
+import threading
+
+
+class GeneralThreader(threading.Thread):
+    def __init__(self, func, param, *args, **kwargs):
+        super(GeneralThreader, self).__init__(*args, **kwargs)
+        self.func = func
+        self.param = param
+        self._stop = threading.Event()
+        self.result = None
+
+    def stop(self):
+        self._stop.set()
+
+    def run(self):
+        self.result = self.func(self.param)
+
 
 class TestAcceptableAnswers(TestCase):
 
@@ -345,7 +362,7 @@ class TestAcceptableAnswers(TestCase):
 
 
 
-    @requirements(['#0030', '#0032'])
+    @requirements(['#0030'])
     def test_1m_q_a(self):
         comp = Interface()
 
@@ -390,11 +407,11 @@ class TestAcceptableAnswers(TestCase):
         comp = Interface()
 
         time1 = time.clock()
-        response = comp.ask("What is 6000 feet in miles?")
+        response = comp.ask("Who invented Python?")
         time2 = time.clock()
 
         self.assertLessEqual((time2 - time1) * 1000, 5)
-        self.assertEqual(response, "{0} miles".format(float(6000) / 5280))
+        self.assertEqual(response, "Guido Rossum(BDFL)")
 
     @requirements(['#0033', '#0034'])
     def test_only_1000_fib(self):
@@ -753,3 +770,53 @@ class TestAcceptableAnswers(TestCase):
 
         pl.savefig("Plots/Number of Questions vs. Store Time.png")
         pl.close()
+
+    def spike_tester(self, comp):
+        time1 = time.clock()
+        comp.ask("What is 6000 feet in miles?")
+        time2 = time.clock()
+        return time2 - time1
+
+    @requirements(['#0032'])
+    def test_load_testing(self):
+        comp = Interface()
+
+        # Regular
+        self.assertLessEqual(self.spike_tester(comp) * 1000, 5)
+
+        # Put under a constant load
+        for i in range(1000):
+            self.assertLessEqual(self.spike_tester(comp) * 1000, 5)
+
+        # Sleep 5ms to allow time for last answer
+        time.sleep(.005)
+
+        # Regular
+        self.assertLessEqual(self.spike_tester(comp) * 1000, 5)
+
+    @requirements(['#0032'])
+    def test_spike_testing(self):
+        comp = Interface()
+        qs = []
+
+        # Regular
+        self.assertLessEqual(self.spike_tester(comp) * 1000, 5)
+
+        # Get Ready
+        for i in range(1000):
+            qs.append(GeneralThreader(self.spike_tester, comp))
+
+        # Spike
+        for i in range(1000):
+            qs[i].start()
+
+        # Sleep 5ms to allow time for last answer
+        time.sleep(.005)
+
+        for i in range(1000):
+            print i
+            self.assertLessEqual(qs[i].result * 1000, 5)
+            qs[i].stop()
+
+        # Regular
+        self.assertLessEqual(self.spike_tester(comp) * 1000, 5)
