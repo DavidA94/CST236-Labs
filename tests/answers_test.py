@@ -665,7 +665,7 @@ class TestAcceptableAnswers(TestCase):
         ax.set_xlim(-width, len(xlocs) + width)
         ax.set_ylim(0, max(times) + 10)
         ax.set_ylabel('Time in Milliseconds')
-        ax.set_title('Number of Questions vs. Response Time')
+        ax.set_title('Write Time vs. Read Time')
         ax.set_xticks(xlocs + (width / 2))
         ax.set_xticklabels(["Write Time", "Read time"])
         pl.tight_layout()
