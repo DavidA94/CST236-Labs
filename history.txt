@@ -1,0 +1,194 @@
+Ask: What is the answer to everything?
+Unexpected answer to question What is the answer to everything? - You found bug 6
+Ask: vVMEGtfhP1eAPfaTNOAlS1kPAVJ4VtqxI0UkP0i8k
+Ask: What is the answer to everything?
+Unexpected answer to question What is the answer to everything? - You found bug 6
+Ask: What is the answer to everything?
+Unexpected answer to question What is the answer to everything? - You found bug 6
+Ask: What is the answer to everything?
+Unexpected answer to question What is the answer to everything? - You found bug 6
+Ask: What is the answer to everything?
+Unexpected answer to question What is the answer to everything? - You found bug 6
+Ask: What is the answer to everything?
+Unexpected answer to question What is the answer to everything? - You found bug 6
+Ask: What is the answer to everything?
+Unexpected answer to question What is the answer to everything? - You found bug 6
+Ask: What is the answer to everything?
+Ask: lM4eUt hW3ZJZdZ4dU4drz001AlhVCzXC53x3biYqSO
+Ask: KBEz823JwhE6YsPOE5S d2LPD?H6GggO b2C3SulygI6Y4q8nW
+Ask: What is the answer to everything?
+Correct: QvS5xoObn
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Teach: AH6LCLXSeMIdrXVLze7ELM0D429Ue7E8rzLQS1mdhX5PcA
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Correct: EAMAe9bvdRFkAvsZOZ9bJyVSk08X23m1JsHstm5?D6tAh21EjlNXB
+Ask: What is the answer to everything?
+Ask: What is the answer to everything?
+Ask: 8SYuZm MArT
+Ask: What is the answer to everything?
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Ask: What is the answer to everything?
+Correct: u61I0P9wU
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Correct: hC0iECqPuj75V6P7
+Ask: What is the answer to everything?
+Unexpected answer to question What is the answer to everything? - QvS5xoObn
+Correct: OEz86gbwIj4ybTJB88GqYYLXzq4qFFEdJbQ
+Ask: What is the answer to everything?
+Ask: CS7UQgJ5PM5
+Ask: What is the answer to everything?
+Correct: B4bV03UugUOni
+Ask: What is the answer to everything?
+Ask: rVZpcBFLQ0S918Px7ekWmm
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Correct: Hc8WeSy
+Ask: jo
+Teach: 7 kgejzFJpjk8u11qdZgfSxdgqabRec92Z5tqct0vzcqQuiu5dVED
+Ask: fmt3U6Hns?8QX9D1oosu0
+Teach: Q Ju?LZHZLX
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 1
+Correct: Y2OZZMrPZMixaZLLLb3 ocIJI2uA
+Ask: What is the answer to everything?
+Correct: iWbUyoCEmb53Vk4r6pk4Tr0J0uzHCAUuSzLFP082E4Aab?Z8ypV0FLz
+Ask: cpMpSQCf40JB8h0nQ3xwP1gukPZP21Bou0fmPHC8RwJvafy
+Ask: What is the answer to everything?
+Ask: fjMrkUFkgxyH7S2Pa3erJqL VzRr7JDGAmceipZ8P?vTkiTyQn74FU7
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Correct: L94s00W e844s?EgmeQ3aDqRt e4EwK3I?eMh2cTZ0
+Ask: What is the answer to everything?
+Correct: STWitfiXJY5fkjx 31c4pvHAzRp ZU?XpGBQwzUFOHW35Jk 6?Dkw
+Ask: JwNvv1XhI9OhgKuM7BxlF0P4RNxxGvUw6FU6gBpCER4O
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Ask: jo
+Correct: 9ppVe6DSnHnN0XK2Dwq9I9Ol 8zp
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Ask: CiVLj3No6S9mPdI9vfnRw9N8sizXzHuPBRXCf
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Ask: gzMggh7wjBQb8NFQsLFmA1mmcvVfjM 2tS9d?gfEJaAA3dukkdqz6sLK
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Correct: N?Epo2k6gV?Ci7ubFmB7RsfKx A6?1WrJqWvXO7AK2rsb2B
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Correct: K7UGAgcC1mNKlzVLeX1F?L88ssFR7F94VZs1OI6msCC
+Ask: jo
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Ask: Nbf3bBj3mD79LI5WlGMkWWKzFmy
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Correct: HiCDv7ibu4W
+Ask: jo
+Ask: jo
+Correct: atBLI7Gu694mz0Ctukw
+Ask: What is the answer to everything?
+Ask: Nw
+Ask: jo
+Correct: JC9ilRt08L0zgTW3S7qLlz5zzeXS6ZeS1OIw14SmR7mR4HsrDprcTnTb5?4B
+Ask: What is the answer to everything?
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Correct: NR8
+Ask: jo
+Correct: dArAnXBX3cmL36K110oVG1kbXxM2OptCMB41GHuG00T7uF gqw4e2
+Ask: What is the answer to everything?
+Correct: 6f2Fumwg1 Vc
+Ask: What is the answer to everything?
+Ask: 5nanq
+Teach: iqjd0EGC3vLYi6gI4RMoP9NDyMp4d?5MmWBYH
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Ask: 5nanq
+Unexpected answer to question 5nanq - You found bug 2
+Correct: JOdK5bYM9Olpsd7hRx1HNQ60ck3y?n JZfljOwbEvRv
+Ask: jo
+Ask: uvA1YiiPF4W3Mbkzg2ZI5PkZwPVgKMoDpsvFTYldjzOfgm4X260Y
+Ask: QxbgyaVdYmoWnkEbVsiFi2R w1QvubR8A0D6XMFjF11fpOokT?Q5
+Teach: FEJ0ThQa?G?tmE8cKP 9H8k3?YlT5KJasOBVsEo41hi9m9y
+Ask: b2aRQ2kAHZeoc4RcisrpGQ4IUHalFkFBj5iTqPxcrammbzkMk
+Ask: ZxwQEOua6y7
+Teach: f3WtuGqKJvWk4bDjQU
+Ask: uDr9 wW1uS5lnVcBi 6MToqb UMbt3cZnU0
+Ask: What is the answer to everything?
+Correct: OR4JS03wiWVPrPpwv5yQQfe?oW1HrshGNVTT??y0OFGxKFkMwqGyHiY42
+Ask: ZxwQEOua6y7
+Correct: SQe7qtoJ8nYy
+Ask: qz9jwghgkXAe4uBJ8RzKhrPQpxqawtq6
+Ask: x1LPH
+Ask: QxbgyaVdYmoWnkEbVsiFi2R w1QvubR8A0D6XMFjF11fpOokT?Q5
+Unexpected answer to question QxbgyaVdYmoWnkEbVsiFi2R w1QvubR8A0D6XMFjF11fpOokT?Q5 - You found bug 3
+Ask: 0rAeJR MrUR9GrVkL2Hn1rZSykqKD7Qbe jTzqpCtngie1wmst39
+Ask: 5nanq
+Unexpected answer to question 5nanq - You found bug 2
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Ask: 8Wnt5F5O7aeWLEUwOB8ACIpB6eHAqHQG Mq0iyfgk0Fk6?475YE8WaTv5
+Ask: jo
+Correct: MJPS6O
+Ask: gUkC1eBNC0
+Ask: H0Y3SaLm5UxS6O5oH3xDixhHS7Nkl7g?c
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Ask: What is the answer to everything?
+Ask: E8?774 7oI6ip6LsWbgaim3ebAaNK1ODhWDqaQIU3IDAniWQstdAD1aH2
+Ask: 5nanq
+Unexpected answer to question 5nanq - You found bug 2
+Correct: qlM 1TU0h2Fe6N3Wg9Sz8zHcTs14 4x0lgsbOKQhicD9zEPiWK6rAX
+Ask: What is the answer to everything?
+Ask: 3dLFBbSHbPeEFJSd4nl6LpS 3UhmiOCE38TT Ztt455hWGSHMD
+Ask: EgwxOeMsJIHxL EI q2AN1LTO9tCgOuu j0JLB4MkDmkbr
+Ask: m648c3tUFbhWL5l0tQxvU5wqR
+Unexpected answer to question m648c3tUFbhWL5l0tQxvU5wqR - You found bug 2
+Correct: fEpkmRZfrpFTCE9 ?w4xDBJtVif
+Ask: ZxwQEOua6y7
+Ask: n7UafnqN9kQCY9T14 AT6JkM7vWM4ReqH XvCB13NRAR8yFRdel7
+Ask: jo
+Correct: eR
+Ask: ZxwQEOua6y7
+Correct: Jzw4ChCazZ7FrKmx5UahxI1xGtI?LDUpfDeU
+Ask: 5nanq
+Unexpected answer to question 5nanq - You found bug 2
+Correct: jvGLZsxyaYipYQfhEgbjj
+Ask: jo
+Ask: B??HSM0gwSFYo76Z x8nxze1YYdBJf06J9Hbk44d?c5eWYQwW37T53NQX
+Teach: 0sP5kEXWNzTc2W1xVvItJwrMt5WfKe
+Ask: M9vJC?VHGXKe3QUaPe1fZfnCyMTbLJGgoY829b
+Teach: iqk5Suwj7L7h5grhOTprHncyI  Kh7Eekl7sMSF3a
+Ask: ZxwQEOua6y7
+Correct: e09z8DV6iCxLQ RZAKmnPCr8
+Ask: What is the answer to everything?
+Ask: rVnHPM7ZWLdd?XaK5zVl
+Ask: QxbgyaVdYmoWnkEbVsiFi2R w1QvubR8A0D6XMFjF11fpOokT?Q5
+Unexpected answer to question QxbgyaVdYmoWnkEbVsiFi2R w1QvubR8A0D6XMFjF11fpOokT?Q5 - You found bug 3
+Ask: What is the answer to everything?
+Correct: hjfsMNBJoF psGM3YzKTuAh86iStOvIHScbi7ZURjnCcJoiaw1NKncXHnAD
+Ask: KHG01x2exus1kJPIBNELqG?Y8Q1Vt4StySdv7Mcnne
+Ask: fmt3U6Hns?8QX9D1oosu0
+Unexpected answer to question fmt3U6Hns?8QX9D1oosu0 - You found bug 1
+Correct: mOwzIzul7R
+Ask: mgib?CHU6PNQVvYWTvWqpfl2wa6ogpcykVemtgjsMezMAZPc7PdQ
+Ask: B??HSM0gwSFYo76Z x8nxze1YYdBJf06J9Hbk44d?c5eWYQwW37T53NQX
+Unexpected answer to question B??HSM0gwSFYo76Z x8nxze1YYdBJf06J9Hbk44d?c5eWYQwW37T53NQX - You found bug 3
+Ask: B??HSM0gwSFYo76Z x8nxze1YYdBJf06J9Hbk44d?c5eWYQwW37T53NQX
+Unexpected answer to question B??HSM0gwSFYo76Z x8nxze1YYdBJf06J9Hbk44d?c5eWYQwW37T53NQX - You found bug 3
+Ask: jo
+Ask: ?U4admEDo?2
+Teach: XfQ?iBE
+Ask: P?kqDr?P 3POawTp5DqvirTuqePiHCAd907dUaFCFHwF5d
+Teach: W2fAzIH7c6H83sR7pKT13LFI3bPNt2oiMRw8kIZ
+BUG FOUND: You found bug 4

@@ -1,0 +1,15 @@
+Bug 1: 
+	Ask: [A question with 1+ "?" in the question, none of which are at the end, and does not meet Bug 2's criteria]
+Bug 2: 
+	Ask: [A question with (n * 5) characters]
+Bug 3: 
+	Ask: [A question with 51+ characters which does not meet bug 2's criteria]
+Bug 4: 
+	Happens after 10 Q/A's have been stored.
+Bug 5: 
+	Given the answer to "What is the answer to everything?" is either an integer or a string, 
+	and correcting it to be integer or string (whichever it is currenlty not), Bug 5 occurs.
+Bug 6: 
+	Randomly "fails" to open correctly
+Bug 7: 
+	Teach: [Anything with a "?" in the answer]
